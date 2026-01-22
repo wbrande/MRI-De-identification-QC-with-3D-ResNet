@@ -29,9 +29,6 @@ To support automated QC, this repo includes training/evaluation code for:
 - `8650 Paper.pdf`  
   Project report with background, methodology, and results.
 
-- `*.pt` (optional)  
-  PyTorch checkpoint files (`state_dict`) for the two trained models.  
-  If you publish them, prefer GitHub Releases or Git LFS if they are large.
 
 ---
 
@@ -117,21 +114,6 @@ This notebook loads the trained weights, computes evaluation metrics, and includ
 
 ---
 
-## Model Artifacts (`.pt` files)
-
-If you include weights in the repo, keep in mind:
-
-- `.pt` files can be large → consider Git LFS or GitHub Releases
-- Ensure you’re allowed to redistribute weights/dataset-derived artifacts (course + dataset terms)
-
-A common approach:
-
-- Repo contains code + notebooks + report
-- Weights are attached as a Release (or stored with Git LFS)
-- README explains how to download and where to place them
-
----
-
 ## Notes / Limitations
 
 This is a course project and is intended as a reproducible demonstration of:
@@ -147,4 +129,5 @@ The dataset is not redistributed here.
 
 ## Contact
 
-*(Add your contact information here.)*
+Keller Brandenburg
+kellerbrandenburg@gmail.com
