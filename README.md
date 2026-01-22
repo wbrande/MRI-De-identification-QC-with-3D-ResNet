@@ -37,8 +37,6 @@ To support automated QC, this repo includes training/evaluation code for:
 
 ## Setup
 
-### Option A: pip (recommended)
-
 Create a virtual environment, then install dependencies:
 
 ```bash
